@@ -5,7 +5,7 @@
 # 4
 def sum_number(a, b):
     if b == 0:
-        return a
+        return 1
     a = sum_number(a, b-1) + 1
     return a
 print(sum_number(int(input('Число a ')), int(input('Число b '))))

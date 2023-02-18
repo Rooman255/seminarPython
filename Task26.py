@@ -3,7 +3,7 @@
 # A = 2; B = 3 -> 8
 
 def number(A, B):
-    if B == 1:
-        return A
+    if B == 0:
+        return 1
     return A * number(A, B -1)
 print(number(int(input('Число A ')), int(input('Число B '))))
